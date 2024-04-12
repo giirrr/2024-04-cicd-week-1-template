@@ -9,7 +9,7 @@ const Success = () => {
   return (
     <StBody>
       <div className="innerBody">
-        <h1>The code deployment seems to have been successful.</h1>
+        <h1>아싸 성공!</h1>
         <Button text="back to Home" onClick={() => navigate(`/`)} />
       </div>
     </StBody>
