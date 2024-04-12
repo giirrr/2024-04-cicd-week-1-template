@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <StBody>
       <div className="innerBody">
-        <Button text="go Success" onClick={() => navigate(`/success`)} />
-        <Button text="make Error" onClick={() => throwError()} />
+        <Button text="성공해땅😖😖" onClick={() => navigate(`/success`)} />
+        <Button text="응애 실패.." onClick={() => throwError()} />
       </div>
     </StBody>
   );
